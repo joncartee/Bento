@@ -109,7 +109,7 @@ In the `theme.js` file there's a section about changing the theme depending in t
 const today = new Date();
 const Hr = today.getHours();
 
-if (Hr >= 19 || Hr < 5) {
+if (true===true){
   enableDark();
 } else {
   disableDark();
